@@ -16,6 +16,7 @@ Este é um simples programa em Go para monitorar a disponibilidade de sites e re
 
 ```bash
 go run main.go
+````
 
 
 ## Configurações
