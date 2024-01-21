@@ -21,5 +21,21 @@ go run main.go
 
 ## Configurações
 
-. Número de Monitoramentos: Definido pela constante monitoramentos, determina quantas vezes o programa irá verificar os sites.
-. Intervalo de Verificação: Definido pela constante delay, determina o intervalo em segundos entre cada verificação.
+- **Número de Monitoramentos:** Definido pela constante monitoramentos, determina quantas vezes o programa irá verificar os sites..
+- **Intervalo de Verificação:** Definido pela constante delay, determina o intervalo em segundos entre cada verificação.
+
+
+## Exemplo de sites.txt
+
+```bash
+https://www.exemplo1.com
+https://www.exemplo2.com
+https://www.exemplo3.com
+````
+
+## Logs
+Os resultados das verificações são registrados no arquivo "log.txt" no formato:
+
+```bash
+DD/MM/AAAA HH:mm:ss - Site - Online: true/false
+````
